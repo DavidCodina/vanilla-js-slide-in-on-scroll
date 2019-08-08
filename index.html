@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reveal on Scroll Demo</title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+
+
+	<body>
+		<!-- =======================================================================
+																		<header>
+		======================================================================== -->
+
+
+		<header>
+			<h1>Reveal<br>&#160;&#160; on Scroll<br> &#160;&#160;&#160;&#160;&#160; Demo . . .</h1>
+		</header>
+
+
+		<!-- =======================================================================
+																		<main>
+		======================================================================== -->
+
+
+		<main>
+			<div id="scroller" class="scroller">
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<article class="side side-left padded">
+						<h2>Article 1:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+
+					<div class="side side-right">
+						<img src="images/image1.jpg" alt="An image of something">
+					</div>
+				</section>
+
+
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<div class="side side-left">
+						<img src="images/image2.jpg" alt="An image of something">
+					</div>
+
+					<article class="side side-right padded">
+						<h2>Article 2:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+				</section>
+
+
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<article class="side side-left padded">
+						<h2>Article 3:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+
+					<div class="side side-right">
+						<img src="images/image3.jpg" alt="An image of something">
+					</div>
+				</section>
+
+
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<div class="side side-left">
+						<img src="images/image4.jpg" alt="An image of something">
+					</div>
+
+					<article class="side side-right padded">
+						<h2>Article 4:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+				</section>
+
+
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<article class="side side-left padded">
+						<h2>Article 5:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+
+					<div class="side side-right">
+						<img src="images/image5.jpg" alt="An image of something">
+					</div>
+				</section>
+
+
+				<!-- ============================
+									<section>
+				============================= -->
+
+
+				<section class="section">
+					<div class="side side-left">
+						<img src="images/image6.jpg" alt="An image of something">
+					</div>
+
+					<article class="side side-right padded">
+						<h2>Article 6:</h2>
+						<p>Bla, bla, bla...</p>
+					</article>
+				</section>
+
+			</div><!-- End of <div id="scroller" class="scroller"> -->
+		</main>
+
+
+		<!-- =======================================================================
+																		<script>
+		======================================================================== -->
+
+
+		<script src="scripts/scroller.js"></script>
+		<script>
+			//////////////////////////////////////////////////////////////////////////
+			//
+			//	new instances of class Scroller can also take a second argument of options.
+			//	(An object literal).
+			//	This then gets added to defaults through an extend_object() function.
+			//
+			//	You don't actually need to assign it to a variable.
+			//	You could just call new Scroller( ... );
+			//
+			//////////////////////////////////////////////////////////////////////////
+
+			const my_scroller = new Scroller( document.getElementById('scroller'), {testing: "123"} );
+		</script>
+	</body>
+</html>
